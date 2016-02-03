@@ -2,10 +2,15 @@ body { /*entire page with font from google*/
   font-family: 'Lato', sans-serif;
 }
 
-ul { /*entire page and all content*/
-  border: solid blue;
+ul#everything { /*entire page and all content*/
   width: 90%
   height: auto;
+}
+
+ul.timelist { /* grouping of the date and time*/
+  width: 15%;
+  text-align: right;
+  margin-bottom: -5%;
 }
 
 li { /*each blue box with date and time*/
@@ -13,18 +18,27 @@ li { /*each blue box with date and time*/
 }
 
 time.datetime { /*date*/
-  border: solid purple;
+  color: gray;
+  display: inline;
 }
 
-time.time { /*time*/
-  border: solid green;
+time.timelight { /*time light*/
+  color: #6cbfee;
+  font-size: 2em;
+
+}
+
+time.timedark { /*time dark*/
+  color: #3594CB;
+  font-size: 2em;
+
 }
 
 section { /* right side of page with rectangle boxes*/
   border-radius: .3em;
   width: 60%;
   display:inline-block;
-  margin: 1% 0% 0% 20%;
+  margin: 1% 0% 0% 30%;
   color: white;
 }
 
