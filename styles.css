@@ -19,7 +19,7 @@ li { /*each blue box with date and time*/
 
 time.datetime { /*date*/
   color: gray;
-  display: inline;
+  display: inline-block;
 }
 
 time.timelight { /*time light*/
@@ -65,4 +65,16 @@ p { /* text inside blue rectangles */
   font-size: 1.2em;
   font-weight: 300;
   line-height: 1.3em;
+}
+
+
+div.line {
+  border-left: solid #6cbfee;
+  height: 300px;
+  width: 5%;
+  margin-left: 20%;
+  margin-right: 0%;
+  display:inline-block;
+
+
 }
