@@ -1,32 +1,26 @@
-body {
+body { /*entire page with font from google*/
   font-family: 'Lato', sans-serif;
 }
 
-ul {
+ul { /*entire page and all content*/
   border: solid blue;
   width: 90%
   height: auto;
 }
 
-li {
+li { /*each blue box with date and time*/
   list-style-type: none;
 }
 
-/*
-time {
-  display: inline-block;
-}
-*/
-
-time.datetime {
+time.datetime { /*date*/
   border: solid purple;
 }
 
-time.time {
+time.time { /*time*/
   border: solid green;
 }
 
-section {
+section { /* right side of page with rectangle boxes*/
   border-radius: .3em;
   width: 60%;
   display:inline-block;
@@ -34,16 +28,16 @@ section {
   color: white;
 }
 
-section.contentlight {
+section.contentlight { /*light blue rectangle*/
   background-color: #6cbfee;
 }
 
-section.contentdark {
+section.contentdark { /*darker blue rectangle*/
   background-color: #3594CB;
 }
 
 
-h2 {
+h2 { /* heading inside blue rectangles */
   width: 95%;
   padding-bottom: 5px;
   border-bottom: white solid thin;
@@ -51,8 +45,10 @@ h2 {
   font-weight: 700;
 }
 
-p {
+p { /* text inside blue rectangles */
   width: 95%;
   margin-left: 1em;
+  font-size: 1.2em;
   font-weight: 300;
+  line-height: 1.3em;
 }
