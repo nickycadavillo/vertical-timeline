@@ -4,7 +4,19 @@ body {
 
 ul {
   border: solid blue;
+  width: 90%
+  height: auto;
 }
+
+li {
+  list-style-type: none;
+}
+
+/*
+time {
+  display: inline-block;
+}
+*/
 
 time.datetime {
   border: solid purple;
@@ -16,5 +28,21 @@ time.time {
 
 section.content {
   border: solid black;
+  width: 60%;
+  display:inline-block;
+  margin: 1% 0% 0% 20%;
+  background-color: cornflowerblue;
+  color: white;
+}
 
+h2 {
+  width: 95%;
+  padding-bottom: 5px;
+  border-bottom: white solid thin;
+  margin-left: 1em;
+}
+
+p {
+  width: 95%;
+  margin-left: 1em;
 }
