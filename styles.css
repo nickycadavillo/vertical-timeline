@@ -26,23 +26,33 @@ time.time {
   border: solid green;
 }
 
-section.content {
-  border: solid black;
+section {
+  border-radius: .3em;
   width: 60%;
   display:inline-block;
   margin: 1% 0% 0% 20%;
-  background-color: cornflowerblue;
   color: white;
 }
+
+section.contentlight {
+  background-color: #6cbfee;
+}
+
+section.contentdark {
+  background-color: #3594CB;
+}
+
 
 h2 {
   width: 95%;
   padding-bottom: 5px;
   border-bottom: white solid thin;
   margin-left: 1em;
+  font-weight: 700;
 }
 
 p {
   width: 95%;
   margin-left: 1em;
+  font-weight: 300;
 }
