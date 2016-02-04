@@ -9,15 +9,25 @@ ul#everything { /*entire page and all content*/
 }
 
 ul.timelist { /* grouping of the date and time*/
-  width: 15%;
+  width: 40%;
   text-align: right;
   margin-bottom: -5%;
   margin-right: 4%;
+  padding-left: 0%;
   float: left;
+  overflow: auto;
 }
 
 li { /*each blue box with date and time*/
   list-style-type: none;
+}
+
+li.row { /*each row*/
+  display:inline;
+}
+
+li.leftside { /*entire left side*/
+  width: 50%;
 }
 
 time.datetime { /*date*/
@@ -41,7 +51,7 @@ section { /* right side of page with rectangle boxes*/
   border-radius: .3em;
   width: 60%;
   display:inline-block;
-  margin: 1% 0% 0% 30%;
+  margin: -2.5% 0% 0% 30%;
   color: white;
   /*padding: 10px;*/
 }
@@ -71,7 +81,7 @@ p { /* text inside blue rectangles */
   line-height: 1.3em;
 }
 
-i{
+i{ /* icon */
   color:white;
   background-color: #3594CB;
   width: 1em;
@@ -83,12 +93,16 @@ i{
 }
 
 
-/*
+
+
+/* attempt at making the vertical line
+
 ul.timeline {
-  border: 1px solid;
+  border-left: 1px solid;
   height: 500px;
-  width: 5px;
-  margin: 0%;
-  padding: 0%;
+  width: 15%;
+  display:inline;
+  overflow: auto;
+  padding-left: 0%;
 }
 */
