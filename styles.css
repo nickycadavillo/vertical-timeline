@@ -3,6 +3,7 @@ body { /*entire page with font from google*/
 }
 
 ul#everything { /*entire page and all content*/
+  display: inline-block;
   width: 90%
   height: auto;
 }
@@ -19,7 +20,7 @@ li { /*each blue box with date and time*/
 
 time.datetime { /*date*/
   color: gray;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 time.timelight { /*time light*/
@@ -37,9 +38,10 @@ time.timedark { /*time dark*/
 section { /* right side of page with rectangle boxes*/
   border-radius: .3em;
   width: 60%;
-  display:inline-block;
+  /*display:inline-block;*/
   margin: 1% 0% 0% 30%;
   color: white;
+  padding: 10px;
 }
 
 section.contentlight { /*light blue rectangle*/
@@ -67,14 +69,24 @@ p { /* text inside blue rectangles */
   line-height: 1.3em;
 }
 
-
-div.line {
-  border-left: solid #6cbfee;
-  height: 300px;
-  width: 5%;
-  margin-left: 20%;
-  margin-right: 0%;
-  display:inline-block;
-
-
+i{
+  color:white;
+  background-color: #3594CB;
+  width: 1em;
+  height: 1em;
+  border: 7px solid #AFDCF8;
+  border-radius: 3em;
+  padding: 2px;
+  text-align: center;
 }
+
+
+/*
+ul.timeline {
+  border: 1px solid;
+  height: 500px;
+  width: 5px;
+  margin: 0%;
+  padding: 0%;
+}
+*/
